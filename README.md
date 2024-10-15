@@ -2,7 +2,7 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-11.1.2-blue.svg)](https://nextjs.org/) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](#contributing)
 
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) -->
+[![Proprietary License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE) [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE-CC)
 
 **Sevaarth** is a nonprofit organization focused on uplifting underserved communities, including the elderly, children, and women, while promoting environmental sustainability. This repository houses the official website of Sevaarth, built with Next.js, offering an intuitive platform to share our mission, promote initiatives, and encourage contributions.
 
@@ -13,6 +13,7 @@
 ## 📑 Table of Contents
 
 - [About Sevaarth](#about-sevaarth)
+- [License Information](#license-information)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -21,6 +22,16 @@
 - [Contributing](#contributing)
 - [Contact Us](#contact-us)
 - [Acknowledgments](#acknowledgments)
+
+&nbsp;
+
+## License Information
+
+This repository uses two different licenses:
+
+1. **Code**: All source code in this repository is covered by a **Proprietary License**. This restricts the use, modification, and distribution of the code to authorized collaborators only. Refer to the [LICENSE](./LICENSE) file for more details.
+
+2. **Non-code Content (Media, Documentation)**: Non-code content, such as images, documents, and other media, is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** license. Refer to the [LICENSE-CC](./LICENSE-CC) file for more details.
 
 &nbsp;
 
@@ -121,7 +132,7 @@ Ensure you have the following installed:
 │   ├── styles/            # Global and component-specific styles (Tailwind CSS)
 │   ├── lib/               # Helper functions
 │   └── models/            # Database models
-├── .env.local             # Environment variables (API keys)
+├── .env.local             # Environment variables
 ├── package.json           # Project metadata and dependencies
 └── README.md              # You are here
 ```
